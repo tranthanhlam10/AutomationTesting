@@ -1,0 +1,9 @@
+drivermanager\EdgeDriverManager.class
+pages\BasePage.class
+drivermanager\BDriverFactory.class
+pages\LoginPage.class
+drivermanager\BDriverManager.class
+drivermanager\ChromeDriverManager.class
+tests\BaseTest.class
+drivermanager\FirefoxDriverManager.class
+tests\LoginTest.class
