@@ -15,5 +15,3 @@
 ## How to run report ?
 - In thist terminal, enter "allure serve target"
 (Chỗ report này còn bị bug để fix sau ).
-
-
