@@ -16,6 +16,6 @@ public class LoginTest extends BaseTest{
     @Test(priority = 1 , description = "Login check")
     @Description("Kiểm tra đăng nhập với tài khoản chính xác")
     public void testLogin() throws InterruptedException {
-        Assert.assertEquals(LoginPage.getInstance().Login("admin@demo.com", "riseDemo") , "https://rise.fairsketch.com/dashboard" );
+        Assert.assertEquals(LoginPage.getInstance().Login("lamtt@younetgroup.com", "Lam@12345") , "https://eca-tool-testing.younetmedia.com/products" );
     }
 }

@@ -21,9 +21,9 @@ public class LoginPage extends BasePage{
      * Lấy các locator
      * Ở dây lấy locator của 3 element: Email, Password, Button Đăng nhập
      */
-    By inputUsername = By.xpath("//*[@id='email']");
-    By inputPassword = By.xpath("//*[@id='password']");
-    By btnLogin = By.xpath("//*[@id='signin-form']/button");
+    By inputUsername = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[1]/div/input");
+    By inputPassword = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[2]/div/input");
+    By btnLogin = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[3]/div/button");
 
     /**
      * Hàm xử lý các các action test
@@ -35,13 +35,13 @@ public class LoginPage extends BasePage{
     public String Login(String user, String pass) throws InterruptedException {
 
 
-        driver.findElement(inputUsername).clear();
-        driver.findElement(inputPassword).clear();
+//        driver.findElement(inputUsername).clear();
+//        driver.findElement(inputPassword).clear();
 
         driver.findElement(inputUsername).sendKeys(user);
         driver.findElement(inputPassword).sendKeys(pass);
         driver.findElement(btnLogin).click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         return driver.getCurrentUrl();
     }
 }
