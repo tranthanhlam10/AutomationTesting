@@ -17,7 +17,7 @@ public class BasePage {
 //        driver = BDriverFactory.InitDriver(System.getProperty("driver"));
           driver = BDriverFactory.InitDriver("chrome");
           driver.manage().window().maximize();
-          driver.navigate().to("https://rise.fairsketch.com/");
+          driver.navigate().to("https://eca-tool-testing.younetmedia.com/auth/login");
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
       }
       public void tearDown(){
