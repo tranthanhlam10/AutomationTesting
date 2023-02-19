@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ECI - Younet media's test case">
+    <test name="ECI - Younet media's test case">
+        <classes>
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="tests.SearchRankingTest">
+                <methods>
+                    <include name="addKeywordTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

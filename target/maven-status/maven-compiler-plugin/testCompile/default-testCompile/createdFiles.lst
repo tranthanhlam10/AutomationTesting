@@ -1,5 +1,7 @@
 drivermanager\EdgeDriverManager.class
 pages\BasePage.class
+pages\SearchRankingPage.class
+tests\SearchRankingTest.class
 drivermanager\BDriverFactory.class
 pages\LoginPage.class
 drivermanager\BDriverManager.class
