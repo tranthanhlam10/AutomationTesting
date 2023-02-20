@@ -1,9 +1,11 @@
 D:\Thanh Lâm\AutomationTesting\src\test\java\tests\LoginTest.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\pages\BasePage.java
+D:\Thanh Lâm\AutomationTesting\src\test\java\tests\SearchRankingTest.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\drivermanager\BDriverManager.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\drivermanager\EdgeDriverManager.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\drivermanager\FirefoxDriverManager.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\tests\BaseTest.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\drivermanager\BDriverFactory.java
+D:\Thanh Lâm\AutomationTesting\src\test\java\pages\SearchRankingPage.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\pages\LoginPage.java
 D:\Thanh Lâm\AutomationTesting\src\test\java\drivermanager\ChromeDriverManager.java

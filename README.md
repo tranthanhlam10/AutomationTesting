@@ -6,12 +6,21 @@
 - Maven 4.0.0
 - Java 17
 - Intellij
-(Cách cài đặt thì gg từng cái nó có chỉ cách cài).
 ## How to run source code ?
+### Run all test case
 - In Intellij, open View.
-- Click terminal
-- Enter "mvn test"
-(Các đơn giản nhất muốn chạy test cho mà hình nào cứ vô file tests chọn file rồi chạy là được).
+- Click terminal.
+- Enter "mvn test".
+### Run test class
+- In Intellij, open View.
+- Click terminal.
+- Enter "mvn test -Dtest="'Test class name'".
+### Run test method
+- Intellij, open View.
+- Click terminal.
+- Enter "mvn test -Dtest="'Test class name#Test method name'".
 ## How to run report ?
-- In thist terminal, enter "allure serve target"
-(Chỗ report này còn bị bug để fix sau ).
+### First of all, install Allure report.
+- You can install Allure by Scoop (a support tool for windows powershell) or you can install manually by jar file
+- 
+

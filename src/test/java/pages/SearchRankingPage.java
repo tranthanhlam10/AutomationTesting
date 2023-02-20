@@ -51,4 +51,6 @@ public class SearchRankingPage extends BasePage{
             System.out.println(row.size());
             return + row.size();
     }
+
+
 }

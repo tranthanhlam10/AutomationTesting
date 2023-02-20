@@ -1,25 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-17T02:53:54 ICT" name="Command line suite" finished-at="2022-11-17T02:54:12 ICT" duration-ms="17548">
+  <suite started-at="2023-02-20T20:47:11 ICT" name="Surefire suite" finished-at="2023-02-20T20:48:02 ICT" duration-ms="51168">
     <groups>
     </groups>
-    <test started-at="2022-11-17T02:53:54 ICT" name="Command line test" finished-at="2022-11-17T02:54:12 ICT" duration-ms="17548">
+    <test started-at="2023-02-20T20:47:11 ICT" name="Surefire test" finished-at="2023-02-20T20:48:02 ICT" duration-ms="51168">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginTest@31e5415e]" started-at="2022-11-17T02:53:54 ICT" name="setupTest" finished-at="2022-11-17T02:54:03 ICT" duration-ms="9242" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginTest@400d912a]" started-at="2023-02-20T20:47:11 ICT" name="setupTest" finished-at="2023-02-20T20:47:31 ICT" duration-ms="20212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLogin()[pri:1, instance:tests.LoginTest@31e5415e]" started-at="2022-11-17T02:54:03 ICT" name="testLogin" description="Login check" finished-at="2022-11-17T02:54:11 ICT" duration-ms="8080" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:tests.LoginTest@400d912a]" started-at="2023-02-20T20:47:31 ICT" name="testLogin" description="Login check" finished-at="2023-02-20T20:47:36 ICT" duration-ms="5369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@31e5415e]" started-at="2022-11-17T02:54:12 ICT" name="tearDown" finished-at="2022-11-17T02:54:12 ICT" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@400d912a]" started-at="2023-02-20T20:47:36 ICT" name="tearDown" finished-at="2023-02-20T20:47:36 ICT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+      <class name="tests.SearchRankingTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.SearchRankingTest@781a9412]" started-at="2023-02-20T20:47:36 ICT" name="setupTest" finished-at="2023-02-20T20:47:46 ICT" duration-ms="9827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:tests.SearchRankingTest@781a9412]" started-at="2023-02-20T20:47:46 ICT" name="Login" finished-at="2023-02-20T20:47:51 ICT" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addKeywordTest()[pri:0, instance:tests.SearchRankingTest@781a9412]" started-at="2023-02-20T20:47:51 ICT" name="addKeywordTest" finished-at="2023-02-20T20:48:01 ICT" duration-ms="10038" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button"}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b7b21386ea592a070300a37c687c8be, findElement {using=xpath, value=//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54214/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b7b21386ea592a070300a37c687c8be]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button"}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b7b21386ea592a070300a37c687c8be, findElement {using=xpath, value=//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54214/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b7b21386ea592a070300a37c687c8be
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at pages.SearchRankingPage.addNewKeyword(SearchRankingPage.java:40)
+at tests.SearchRankingTest.addKeywordTest(SearchRankingTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addKeywordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchRankingTest@781a9412]" started-at="2023-02-20T20:48:02 ICT" name="tearDown" finished-at="2023-02-20T20:48:02 ICT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchRankingTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
