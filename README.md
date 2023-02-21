@@ -19,8 +19,13 @@
 - Intellij, open View.
 - Click terminal.
 - Enter "mvn test -Dtest="'Test class name#Test method name'".
+### Change env for running test.
+- Intellij, open View.
+- Click terminal.
+- Enter "mvn compile -Dtest='env'"
+  - Run types of test you want by the following step on Run test.
 ## How to run report ?
 ### First of all, install Allure report.
 - You can install Allure by Scoop (a support tool for windows powershell) or you can install manually by jar file
-- 
+- Run Allure report with command line "allure serve 'file location'"
 
