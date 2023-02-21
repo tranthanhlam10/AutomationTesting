@@ -15,9 +15,10 @@ public class BasePage {
      */
     public void setDriver(){
 //        driver = BDriverFactory.InitDriver(System.getProperty("driver"));
+          String  env = (System.getProperty("env") == null) ? "testing" :System.getProperty("env");
           driver = BDriverFactory.InitDriver("chrome");
           driver.manage().window().maximize();
-          driver.navigate().to("https://eca-tool-testing.younetmedia.com/auth/login");
+          driver.navigate().to("https://eca-tool-"+env+".younetmedia.com/auth/login");
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
       }
       public void tearDown(){

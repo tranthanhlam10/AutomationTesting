@@ -1,90 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.832" tests="2" errors="0" skipped="0" failures="1">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="15.435" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Java enviroment\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
-    <property name="maven.conf" value="D:\Java enviroment\apache-maven-3.8.4/conf"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="D:\Java enviroment\apache-maven-3.8.4"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\trant"/>
-    <property name="user.language" value="en"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-08-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
-    <property name="user.name" value="trant"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\trant\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.4.1"/>
-    <property name="user.dir" value="D:\Thanh Lâm\AutomationTesting"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Thanh Lâm\AutomationTesting"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MongoDB\Server\5.0\bin;D:\Java enviroment\apache-maven-3.8.4\bin;D:\Flutter\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\Game\allure-2.10.0\bin;C:\Program Files\Java\jdk-17.0.4.1;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\trant\AppData\Local\Microsoft\WindowsApps;C:\Users\trant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trant\AppData\Local\gitkraken\bin;C:\Users\trant\AppData\Roaming\npm;D:\Java enviroment\IntelliJ IDEA Community Edition 2022.1.3\bin;;C:\Users\trant\.dotnet\tools;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Thanh Lâm\AutomationTesting"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Thanh Lâm\AutomationTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\trant\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\Java enviroment\apache-maven-3.8.4\bin\m2.conf"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="D:\Java enviroment\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MongoDB\Server\5.0\bin;D:\Java enviroment\apache-maven-3.8.4\bin;D:\Flutter\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\Game\allure-2.10.0\bin;C:\Program Files\Java\jdk-17.0.4.1;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\trant\scoop\shims;C:\Users\trant\AppData\Local\Microsoft\WindowsApps;C:\Users\trant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trant\AppData\Local\gitkraken\bin;C:\Users\trant\AppData\Roaming\npm;D:\Java enviroment\IntelliJ IDEA Community Edition 2022.1.3\bin;;C:\Users\trant\.dotnet\tools;."/>
+    <property name="maven.conf" value="D:\Java enviroment\apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Java enviroment\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\trant"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="trant"/>
+    <property name="java.class.path" value="D:\Java enviroment\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="D:\Java enviroment\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogin" classname="tests.LoginTest" time="5.46"/>
-  <testcase name="addKeywordTest" classname="tests.SearchRankingTest" time="10.056">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button&quot;}&#10;  (Session info: chrome=110.0.5481.96)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3b7b21386ea592a070300a37c687c8be, findElement {using=xpath, value=//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54214/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3b7b21386ea592a070300a37c687c8be" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button"}
+  <testcase classname="tests.LoginTest" name="testLogin" time="5.383"/>
+  <testcase classname="tests.SearchRankingTest" name="addKeywordTest" time="10.052">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button&quot;}
   (Session info: chrome=110.0.5481.96)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b7b21386ea592a070300a37c687c8be, findElement {using=xpath, value=//*[@id="DASHBOARD_LAYOUT_MAIN"]/div[4]/div[2]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54214/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b7b21386ea592a070300a37c687c8be
+Command: [2fb88ee40091a86a877d2607621b8369, findElement {using=xpath, value=//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64928/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fb88ee40091a86a877d2607621b8369" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button&quot;}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fb88ee40091a86a877d2607621b8369, findElement {using=xpath, value=//*[@id=&quot;DASHBOARD_LAYOUT_MAIN&quot;]/div[4]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\trant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64928/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fb88ee40091a86a877d2607621b8369
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.SearchRankingPage.addNewKeyword(SearchRankingPage.java:40)
 	at tests.SearchRankingTest.addKeywordTest(SearchRankingTest.java:27)
 </failure>
-    <system-out><![CDATA[Launching Chrome browser...
-]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+    <system-out>Launching Chrome browser...
+</system-out>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\trant\.cache\selenium\chromedriver\win32\110.0.5481.77\chromedriver.exe
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 33211
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 46086
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676900857.643][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 8:47:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676994203.578][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 10:43:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
-]]></system-err>
+</system-err>
   </testcase>
 </testsuite>
