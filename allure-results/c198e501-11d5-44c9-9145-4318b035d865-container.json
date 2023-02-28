@@ -1,1 +1,0 @@
-{"uuid":"c198e501-11d5-44c9-9145-4318b035d865","name":"tests.SearchRankingTest.Login","children":["6bb53346-0fbd-490f-b420-ac98d3424062"],"description":"","befores":[{"name":"Login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1675790364776,"stop":1675790370112}],"afters":[],"start":1675790364776,"stop":1675790370112}
