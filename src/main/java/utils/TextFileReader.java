@@ -11,13 +11,18 @@ public class TextFileReader {
         this.file_path = file_path;
     }
 
+    public String getFile_path(){
+        return this.file_path;
+    }
+
     public String readTextFile(String file_path) throws FileNotFoundException {
         File file = new File(file_path);
+        String diver = "";
         Scanner read_file = new Scanner(file);
         while (read_file.hasNextLine()) {
-            return read_file.nextLine();
+            diver = read_file.nextLine();
         }
-        read_file.close(); // đóng file lại
-        return null;
+        read_file.close();
+        return  diver;
     }
 }
