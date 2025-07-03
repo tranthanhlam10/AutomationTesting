@@ -8,7 +8,6 @@ public class LoginPage extends BasePage{
 
     private LoginPage(){}
 
-
     // Sử dụng DP Singleton -> Chỉ tạo 1 instance của class này.
     public static LoginPage getInstance(){
         if(_instance == null)
@@ -16,11 +15,6 @@ public class LoginPage extends BasePage{
         return _instance;
     }
 
-
-    /**
-     * Lấy các locator
-     * Ở dây lấy locator của 3 element: Email, Password, Button Đăng nhập
-     */
     By inputUsername = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[1]/div/input");
     By inputPassword = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[2]/div/input");
     By btnLogin = By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div[2]/form/div[3]/div/button");
